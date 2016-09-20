@@ -57,7 +57,7 @@ public class WordLibraryTest extends TestCase {
         for (int i = 0; i < wordLibrary.getSize(); i++) {
             String clearWord = wordLibrary.getWord(i);
             String scrambledWord = wordLibrary.getScrambledWord(i);
-            assertTrue("Scrambled word \"" + scrambledWord +
+            assertTrue("Scrambled word MODIFICADO\"" + scrambledWord +
                        "\" at index: " + i +
                        " does not represent the word \"" + clearWord + "\"",
                        isAnagram(clearWord, scrambledWord));
